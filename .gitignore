@@ -1,49 +1,54 @@
-# === Python ===
+# ===================== PYTHON =====================
 __pycache__/
 *.py[cod]
 *.so
 *.pyo
 *.pyd
-*.egg-info/
 *.egg
+*.egg-info/
 *.manifest
 *.spec
 
-# Virtual Environments (any folder ending in 'env')
+# Virtual Environments (any name or nested)
 venv/
 env/
 .venv/
-tf-pytorch-env/
-pytorch-gpu/
-*/env/
 */venv/
+*/env/
 */.venv/
+tf-pytorch-env/
 */tf-pytorch-env/
+pytorch-gpu/
 */pytorch-gpu/
 Lib/
 site-packages/
 
 # Python package/build artifacts
 build/
-develop-eggs/
 dist/
 downloads/
+develop-eggs/
 eggs/
 .eggs/
 pip-wheel-metadata/
 *.whl
 
+# Python cache
+*.cache/
+*.pytest_cache/
+__pypackages__/
+
 # Jupyter Notebooks
 .ipynb_checkpoints/
 
-# === Node.js ===
+# ===================== NODE.JS =====================
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# === IDEs and Editors ===
+# ===================== IDE / TEXT EDITORS =====================
 .vscode/
 .idea/
 .vs/
@@ -57,24 +62,21 @@ pnpm-debug.log*
 *.userosscache
 *.sln.docstates
 
-# === OS / Editor Files ===
+# ===================== SYSTEM / OS FILES =====================
 .DS_Store
 Thumbs.db
 ehthumbs.db
 desktop.ini
 
-# === Logs, Databases, and Caches ===
+# ===================== DATABASE / LOG FILES =====================
 *.log
+*.db
 *.sqlite
 *.sqlite3
-*.db
 *.mdb
 *.pdb
-*.cache/
-*.pytest_cache/
-__pypackages__/
 
-# === Miscellaneous Backup / Temp / Patch ===
+# ===================== BACKUPS / TEMP FILES =====================
 *.bak
 *.swp
 *.tmp
@@ -83,7 +85,7 @@ __pypackages__/
 *.orig
 *.rej
 
-# === Compiled / Binary Files ===
+# ===================== COMPILED / BINARY FILES =====================
 *.exe
 *.dll
 *.bin
@@ -92,16 +94,15 @@ __pypackages__/
 *.o
 *.out
 
-# === Coverage Reports ===
+# ===================== TEST / COVERAGE =====================
 coverage.xml
 *.cover
 *.coverage
-.cache/
 htmlcov/
 
-# === Others ===
+# ===================== ENVIRONMENT VARIABLES =====================
 .env
+.env.local
 .env.*.local
-*.env.local
-*.envrc
 .envrc
+*.envrc
