@@ -41,6 +41,33 @@ __pypackages__/
 # Jupyter Notebooks
 .ipynb_checkpoints/
 
+# Model weights and large files
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.tflite
+*.onnx
+
+# Video & dataset files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.wav
+*.flac
+
+# Datasets (example folders)
+FF++/
+dataset/
+data/
+media/
+*/FF++/
+*/dataset/
+*/data/
+*/media/
+
 # ===================== NODE.JS =====================
 node_modules/
 npm-debug.log*
@@ -106,3 +133,10 @@ htmlcov/
 .env.*.local
 .envrc
 *.envrc
+
+# ===================== EXPERIMENT TRACKING / LOGGING =====================
+runs/
+checkpoints/
+tensorboard/
+wandb/
+*.ckpt
