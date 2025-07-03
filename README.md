@@ -7,19 +7,6 @@ You can download the dataset from the official website:
 
 👉 https://www.kaggle.com/datasets/hungle3401/faceforensics
 
-🗂️ Directory Structure (Expected)
-Place the videos in this structure inside your project root:
-
-FF++/
-├── real/
-│   ├── video1.mp4
-│   ├── video2.mp4
-│   └── ...
-├── fake/
-│   ├── video1.mp4
-│   ├── video2.mp4
-│   └── ...
-
 🧹 Preprocessing
 After downloading, run:
 python preprocessing.py
